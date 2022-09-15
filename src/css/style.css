@@ -1,5 +1,6 @@
 main {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -124,7 +125,6 @@ body {
 
 }
 
-
 .nft-card .creator .avatar {
     max-width: 35px;
     border: 1px solid white;
@@ -139,4 +139,10 @@ body {
 
 .creator .text-avatar .name:hover {
     color: var(--cor-destaque);
+}
+
+.attribution {    
+    color: var(--cor-texto);
+    font-size: 12px;
+    margin-top: 55px;    
 }
